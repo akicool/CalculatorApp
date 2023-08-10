@@ -1,0 +1,87 @@
+.button {
+    display: grid;
+    place-items: center;
+    width: 54px;
+    height: 54px;
+    border-radius: 50%;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #9d9d9d80;
+    transition: .2s;
+}
+
+.button:active {
+    background-color: #707070;
+}
+
+.button.border {
+    border: 2px solid #5a5a5a;
+}
+
+.button svg {
+    mix-blend-mode: normal;
+}
+
+.borderNone {
+    border: none;
+}
+
+.button:nth-last-child(1) {
+    grid-column: 2;
+}
+
+.numText {
+    color: #fff;
+    font-size: 1.5em;
+    mix-blend-mode: difference;
+}
+.numText:last-child {
+    order: 1 !important;
+}
+
+.specialButton {
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 36px; 
+
+    background: linear-gradient(180deg, #ED0E98 0%, #FE5A2D 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    mix-blend-mode: difference;
+}
+
+.specialButton:hover {
+    background: linear-gradient(180deg, #08E65F 0%, #5B85FE 100%);
+    -webkit-background-clip: text;
+}
+
+.specialButton:active {
+    background: linear-gradient(180deg, #00943b 0%, #39529c 100%);
+    -webkit-background-clip: text;
+}
+
+.btnBackground {
+    background-color: #2e2e2e;
+    border: none;
+    mix-blend-mode: difference;
+}
+
+.styleEqually {
+    height: 144px;
+    border-radius: 32px;
+    background: linear-gradient(180deg, #ED0E98 0%, #FE5A2D 100%);
+    box-shadow: 0px 8px 24px 2px #f73c57b3;
+}
+
+.styleEqually:hover {
+    background: linear-gradient(180deg, #08E65F 0%, #5B85FE 100%);
+    box-shadow: 0px 8px 24px 2px #3cf752b3;
+}
+
+.styleEqually:active {
+    background: linear-gradient(180deg, #02be4e 0%, #4867c5 100%);
+}
