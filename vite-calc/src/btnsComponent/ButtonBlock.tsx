@@ -17,6 +17,7 @@ interface themeProps {
   onButtonClick: Function;
   clearValue: Function;
   handleEqualButtonClick: Function;
+  isNumClicked: boolean;
 }
 
 const ButtonBlock = ({ onThemeChange, onButtonClick, clearValue, handleEqualButtonClick }: themeProps) => {
